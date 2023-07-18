@@ -14,3 +14,16 @@ Your program should be exactly 8 lines long<br>
 word_first_3 should contain the first 3 letters of the variable word<br>
 word_last_2 should contain the last 2 letters of the variable word <br>
 middle_word should contain the value of the variable word without the first and last letters
+<br>
+<h1>2. Positive anything is better than negative nothing</h1>
+<br>
+This program will assign a random signed number to the variable number each time it is executed. Complete the source code in order to print whether the number stored in the variable number is positive or negative.
+<br>
+You can find the source code 2-pon.py<br>
+The variable number will store a different value every time you will run this program<br>
+You don’t have to understand what import, random. randint do. Please do not touch this code <br>
+The output of the program should be:<br>
+The number, followed by<br>
+if the number is greater than 0: is positive<br>
+if the number is 0: is zero<br>
+if the number is less than 0: is negative
