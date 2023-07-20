@@ -21,3 +21,11 @@ Write a Python function called convert_to_celsius that takes a temperature in Fa
 Prototype: def convert_to_celsius(fahrenheit)<br>
 Returns the temperature in Celsius<br>
 You are not allowed to import any module.
+<br>
+<h1>3. String Manipulation Function</h1>
+<br>
+Write a Python function called reverse_string that takes a string as input and returns the reverse of that string.
+<br>
+Prototype: def reverse_string(string)<br>
+Returns the reversed string.<br>
+You are not allowed to import any module.
