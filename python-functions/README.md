@@ -6,3 +6,10 @@ Write a function that adds two integers and returns the result.
 <br>Returns the value of a + b
 <br>You are not allowed to import any module
 <br>You don’t need to understand __import__
+<br>
+<h1>1. a ^ b</h1>
+Write a function that computes a to the power of b and return the value.
+<br>
+Prototype: def pow(a, b):<br>
+Returns the value of a ^ b<br>
+You are not allowed to import any module
