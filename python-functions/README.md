@@ -13,3 +13,11 @@ Write a function that computes a to the power of b and return the value.
 Prototype: def pow(a, b):<br>
 Returns the value of a ^ b<br>
 You are not allowed to import any module
+<br>
+<h1>2. Temperature Converter Function</h1>
+<br>
+Write a Python function called convert_to_celsius that takes a temperature in Fahrenheit as input and returns the temperature in Celsius.
+<br>
+Prototype: def convert_to_celsius(fahrenheit)<br>
+Returns the temperature in Celsius<br>
+You are not allowed to import any module.
