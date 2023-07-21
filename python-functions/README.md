@@ -29,3 +29,19 @@ Write a Python function called reverse_string that takes a string as input and r
 Prototype: def reverse_string(string)<br>
 Returns the reversed string.<br>
 You are not allowed to import any module.
+<br>
+<h1>4. Fibonacci Sequence Functions</h1>
+<br>
+Write a Python function called fibonacci_sequence that takes a number n as input and returns a list of the first n Fibonacci numbers.
+<br>
+Prototype: def fibonacci_sequence(n)<br>
+Returns a list of the first n Fibonacci numbers.<br>
+You are not allowed to import any module.<br>
+Return an empty list if the it is not possible to generate the Fibonacci numbers for n<br>
+<h1>5. Prime Number Function</h1>
+<br>
+Write a Python function called is_prime that takes a number as input and returns True if the number is prime, and False otherwise.
+<br>
+Prototype: def is_prime(number)<br>
+Returns True if the number is prime, and False otherwise.<br>
+You are not allowed to import any module.<br>
