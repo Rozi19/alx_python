@@ -32,3 +32,14 @@ Write a program that imports the variable a from the file variable_load_2.py and
 <br>
 You are not allowed to use * for importing or __import__<br>
 Your code should not be executed when imported<br>
+<h1>3. Integers division with debug</h1>
+<br>
+Write a function that divides 2 integers and prints the result.
+<br>
+Prototype: def safe_print_division(a, b):<br>
+You can assume that a and b are integers<br>
+The result of the division should print on the finally: section preceded by Inside result:<br>
+Returns the value of the division, otherwise: None<br>
+You have to use try: / except: / finally:<br>
+You have to use "{}".format() to print the result<br>
+You are not allowed to import any module<br>
