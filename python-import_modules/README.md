@@ -49,3 +49,9 @@ Write a function that raises a type exception.
 <br>
 Prototype: def raise_exception():<br>
 You are not allowed to import any module<br>
+<h1>5. Raise a message</h1>
+<br>
+Write a function that raises a name exception with a message.
+<br>
+Prototype: def raise_exception_msg(message=""):<br>
+You are not allowed to import any module
