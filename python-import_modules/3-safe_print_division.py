@@ -5,10 +5,10 @@ def safe_print_division(a, b):
         b = int(b)
         div = a / b
     except ZeroDivisionError:
-         pass
+        pass
     finally:
-        if b > 0:
+        if b == 0:
+            print("Inside result: {}".format(None))
+        else:
             print("Inside result: {}".format(div))
             return div
-        else:
-            print("Inside result: {}".format(None))
