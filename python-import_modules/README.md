@@ -26,4 +26,9 @@ one line per argument:<br>
 the position of the argument (starting at 1) followed by :, followed by the argument value and a new line
 Your code should not be executed when imported<br>
 The number of elements of argv can be retrieved by using: len(argv)<br>
-You do not have to fully understand lists yet, but imagine that argv can be used just like a C array: you can use an index to walk through it. There are other ways (which will be preferred for future project tasks), if you know them you can use them.
+You do not have to fully understand lists yet, but imagine that argv can be used just like a C array: you can use an index to walk through it. There are other ways (which will be preferred for future project tasks), if you know them you can use them.<br>
+<h1>2. Everything can be imported</h1><br>
+Write a program that imports the variable a from the file variable_load_2.py and prints its value.
+<br>
+You are not allowed to use * for importing or __import__<br>
+Your code should not be executed when imported<br>
