@@ -1,13 +1,14 @@
 #!/usr/bin/python3
 def safe_print_division(a, b):
-    global div
     try:
         a = int(a)
         b = int(b)
         div = a / b
     except ZeroDivisionError:
-         print("Inside result: {}".format(None))
-         print("{} / {} = {}".format(a, b, None))
+         pass
     finally:
-        print("Inside result: {}".format(div))
-    return div
+        if b > 0:
+            print("Inside result: {}".format(div))
+            return div
+        else:
+            print("Inside result: {}".format(None))
