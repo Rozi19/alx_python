@@ -43,3 +43,9 @@ Returns the value of the division, otherwise: None<br>
 You have to use try: / except: / finally:<br>
 You have to use "{}".format() to print the result<br>
 You are not allowed to import any module<br>
+<h1>4. Raise exception</h1>
+<br>
+Write a function that raises a type exception.
+<br>
+Prototype: def raise_exception():<br>
+You are not allowed to import any module<br>
