@@ -17,3 +17,10 @@ You are not allowed to import any module<br>
 You can assume that the list only contains integers<br>
 You are not allowed to cast integers into strings<br>
 You have to use str.format() to print integers<br>
+<h1>2. More returns!</h1>
+<br>
+Write a function that returns a tuple with the length of a string and its first character.
+<br>
+Prototype: def multiple_returns(sentence):<br>
+If the sentence is empty, the first character should be equal to None<br>
+You are not allowed to import any module
