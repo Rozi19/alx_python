@@ -27,3 +27,12 @@ value argument will be any type<br>
 If a key exists in the dictionary, the value will be replaced<br>
 If a key doesn’t exist in the dictionary, it will be created<br>
 You are not allowed to import any module<br>
+<h1>3. Best score</h1>
+<br>
+Write a function that returns a key with the biggest integer value.
+<br>
+Prototype: def best_score(a_dictionary):<br>
+You can assume that all values are only integers<br>
+If no score found, return None<br>
+You can assume all students have a different score<br>
+You are not allowed to import any module<br>
