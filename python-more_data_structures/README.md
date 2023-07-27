@@ -11,3 +11,9 @@ Each value should be the square of the value of the input<br>
 Initial matrix should not be modified<br>
 You are not allowed to import any module<br>
 You are allowed to use regular loops, map, etc.<br>
+<h1>1. Present in both</h1>
+<br>
+Write a function that returns a set of common elements in two sets.
+<br>
+Prototype: def common_elements(set_1, set_2):<br>
+You are not allowed to import any module<br
