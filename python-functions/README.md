@@ -45,3 +45,15 @@ Write a Python function called is_prime that takes a number as input and returns
 Prototype: def is_prime(number)<br>
 Returns True if the number is prime, and False otherwise.<br>
 You are not allowed to import any module.<br>
+<h1>6. Password Validation Function</h1>
+<br>Write a Python function called validate_password that takes a password as input and performs the following checks:
+
+<br>The password should be at least 8 characters long.
+<br>The password should contain at least one uppercase letter, one lowercase letter, and one digit.
+The password should not contain spaces.
+<br>
+Prototype: def validate_password(password)
+<br>
+Returns True if the password passes all the checks, and False otherwise.
+<br>
+You are not allowed to import any module.
