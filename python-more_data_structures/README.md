@@ -16,4 +16,14 @@ You are allowed to use regular loops, map, etc.<br>
 Write a function that returns a set of common elements in two sets.
 <br>
 Prototype: def common_elements(set_1, set_2):<br>
-You are not allowed to import any module<br
+You are not allowed to import any module<br>
+<h1>2. Update dictionary</h1>
+<br>
+Write a function that replaces or adds key/value in a dictionary.
+<br>
+Prototype: def update_dictionary(a_dictionary, key, value):<br>
+key argument will be always a string<br>
+value argument will be any type<br>
+If a key exists in the dictionary, the value will be replaced<br>
+If a key doesn’t exist in the dictionary, it will be created<br>
+You are not allowed to import any module<br>
