@@ -2,6 +2,7 @@
     class: square
     """
 
+
 class Square:
     """
     Represent square
