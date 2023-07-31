@@ -4,5 +4,7 @@ class Square:
         b/c it affect differnt propertyies
         Args:
             param1 (int): size of square
+        Returns: 
+            size: size of square
         """
         self.__size = size 
