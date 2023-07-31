@@ -1,9 +1,10 @@
 """ here we have class:
     class: square
     """
+
 class Square:
     """
-    Represent square 
+    Represent square
     Attributes:
         attr1 (str): It have size attribute
         """
@@ -14,4 +15,4 @@ class Square:
         Args:
             param1 (int): size of square
         """
-        self.__size = size 
+        self.__size = size
