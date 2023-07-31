@@ -1,4 +1,8 @@
 class Square:
     def __init__(self, size):
-        python3 -c 'print(__import__("my_module").__doc__)'
+        """ why size is private in __init__
+        b/c it affect differnt propertyies
+        Args:
+            param1 (int): size of square
+        """
         self.__size = size 
