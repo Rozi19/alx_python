@@ -11,3 +11,9 @@ Write a function that returns True if the object is an instance of, or if the ob
 <br>
 Prototype: def is_kind_of_class(obj, a_class):<br>
 You are not allowed to import any module<br>
+<br><h2>2. Only sub class of</h2>
+<br>
+Write a function that returns True if the object is an instance of a class that inherited (directly or indirectly) from the specified class ; otherwise False.
+<br>
+Prototype: def inherits_from(obj, a_class):<br>
+You are not allowed to import any module<br>
