@@ -3,7 +3,7 @@
 
 def is_same_class(obj, a_class):
     """ if they are same return true else false"""
-    if isinstance(obj, a_class):
+    if obj.__class__ == a_class:
         return True
     else:
         return False
