@@ -8,22 +8,23 @@ class Square:
     """
     def __init__(self, size=0):
         """ puting size private """
-        self.__size = size
+        self.size = size
+        
         @property
-        def __size(self):
+        def size(self):
             """ it is a getter to acces a class private attribute 
             @property is bulit in decorection it help to modify the attribute
             return modify value """
             return self.__size
-        @__size.setter
-        def __size(self, value):
+
+        @size.setter
+        def size(self, value):
             """ It is a setter to set the property of the value 
             checking if the value is digit or not and if the value is negaative number or not"""
             if isinstance(value, int):
-                self.__size = value
+                if value >= 0:
+                    self.__size = value
+                else:
+                    raise ValueError("size must be >= 0")
             else:
                 raise TypeError("size must be an integer")
-            if value > 0:
-                self.__size = value
-            else:
-                raise ValueError("size must be >= 0")
