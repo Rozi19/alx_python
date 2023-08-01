@@ -7,8 +7,8 @@ class Square:
     attribute: size
     """
     def __init__(self, size=0):
-        """ puting size """
-        self.size = size
+        """ puting size private """
+        self.__size = size
         @property
         def size(self):
             """ it is a getter to acces a class private attribute 
