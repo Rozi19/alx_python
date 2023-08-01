@@ -8,7 +8,6 @@ class Square:
     """
     def  __init__(self, size=0):
         """ using size attribute check if size is integer or not and if the size is negative or not """
-        self.size = size
         if isinstance(size, int):
             if size >= 0:
                 self.__size = size
