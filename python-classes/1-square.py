@@ -7,8 +7,8 @@ class Square:
     attribute: size
     """
     def __init__(self, size=0):
-        """ puting size as private """
-        self.__size = size
+        """ puting size """
+        self.size = size
         @property
         def size(self):
             """ it is a getter to acces a class private attribute 
@@ -19,7 +19,7 @@ class Square:
         def size(self, value):
             """ It is a setter to set the property of the value 
             checking if the value is digit or not and if the value is negaative number or not"""
-            if value.isdigit():
+            if isinstance(value, int):
                 self.__size = value
             else:
                 raise TypeError("size must be an integer")
