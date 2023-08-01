@@ -15,7 +15,7 @@ class Square:
             @property is bulit in decorection it help to modify the attribute
             return modify value """
             return self.__size
-        @size.setter
+        @__size.setter
         def __size(self, value):
             """ It is a setter to set the property of the value 
             checking if the value is digit or not and if the value is negaative number or not"""
