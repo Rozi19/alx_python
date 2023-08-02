@@ -8,7 +8,7 @@ class BaseGeometry:
     def __init__(self):
         """ using pass"""
         pass
-    
+
     def area(self):
         """ raises an Exception with the message """
         raise Exception("area() is not implemented")
@@ -17,12 +17,13 @@ class BaseGeometry:
         self.__name = name
         self.__value = value
         if isinstance(value, int):
-            if value > 0:
-                self.__value = value
-            else:
-                raise ValueError("{} must be greater than 0".format(self.__name))
+            self.__value = value
         else:
             raise TypeError("{} must be an integer".format(self.__name))
+        if value > 0:
+            self.__value = value
+        else:
+            raise ValueError("{} must be greater than 0".format(self.__name))
 
 
 class Rectangle(BaseGeometry):
