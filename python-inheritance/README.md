@@ -22,3 +22,9 @@ You are not allowed to import any module<br>
 Write an empty class BaseGeometry.
 <br>
 You are not allowed to import any module<br>
+<br><h2>4. Improve Geometry</h2>
+<br>
+Write a class BaseGeometry (based on 3-base_geometry.py).
+<br>
+Public instance method: def area(self): that raises an Exception with the message area() is not implemented<br>
+You are not allowed to import any module<br>
