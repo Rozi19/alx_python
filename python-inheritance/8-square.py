@@ -32,7 +32,7 @@ class Rectangle(BaseGeometry):
         """" validet width and height from parent class """
         self.__width = width
         self.__height = height
-    
+
     def area(self):
         """" return the area of the rectangle"""
         return self.__width * self.__height
