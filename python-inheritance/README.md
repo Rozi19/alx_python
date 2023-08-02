@@ -45,3 +45,20 @@ Write a class Rectangle that inherits from BaseGeometry (5-base_geometry.py).
 Instantiation with width and height: def __init__(self, width, height):<br>
 width and height must be private. No getter or setter<br>
 width and height must be positive integers, validated by integer_validator<br>
+<br><h2>7. Full rectangle</h2>
+<br>
+Write a class Rectangle that inherits from BaseGeometry (5-base_geometry.py). (task based on 6-rectangle.py)
+<br>
+Instantiation with width and height: def __init__(self, width, height)::<br>
+width and height must be private. No getter or setter<br>
+width and height must be positive integers validated by integer_validator<br>
+the area() method must be implemented<br>
+print() should print, and str() should return, the following rectangle description: [Rectangle] <width>/<height><br>
+<br><h2>8. Square #1</h2>
+<br>
+Write a class Square that inherits from Rectangle (7-rectangle.py):
+<br>
+Instantiation with size: def __init__(self, size)::<br>
+size must be private. No getter or setter<br>
+size must be a positive integer, validated by integer_validator<br>
+the area() method must be implemented<br>
