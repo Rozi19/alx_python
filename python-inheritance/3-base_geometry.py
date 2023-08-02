@@ -1,5 +1,8 @@
 """ class: BaseGeometry """
+
+
 class BaseGeometry:
+    """ creating an empty class """
     def __init__(self):
-        """ creating an empty class"""
+        """ using pass"""
         pass
