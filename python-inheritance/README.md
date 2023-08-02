@@ -28,3 +28,13 @@ Write a class BaseGeometry (based on 3-base_geometry.py).
 <br>
 Public instance method: def area(self): that raises an Exception with the message area() is not implemented<br>
 You are not allowed to import any module<br>
+<br><h2>5. Integer validator</h2>
+<br>
+Write a class BaseGeometry (based on 4-base_geometry.py).
+<br>
+Public instance method: def area(self): that raises an Exception with the message area() is not implemented<br>
+Public instance method: def integer_validator(self, name, value): that validates value:<br>
+you can assume name is always a string<br>
+if value is not an integer: raise a TypeError exception, with the message <name> must be an integer<br>
+if value is less or equal to 0: raise a ValueError exception with the message <name> must be greater than 0
+You are not allowed to import any module<br>
