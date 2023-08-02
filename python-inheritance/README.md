@@ -17,3 +17,8 @@ Write a function that returns True if the object is an instance of a class that 
 <br>
 Prototype: def inherits_from(obj, a_class):<br>
 You are not allowed to import any module<br>
+<br><h2>3. Geometry module</h2>
+<br>
+Write an empty class BaseGeometry.
+<br>
+You are not allowed to import any module<br>
