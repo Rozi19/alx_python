@@ -1,5 +1,5 @@
-""" parent class: BaseGeometry
-    child class: Rectangle"""
+""" class: BaseGeometry
+    class: rectangle"""
 
 
 class BaseGeometry(type):
