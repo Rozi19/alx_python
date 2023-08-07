@@ -2,10 +2,10 @@
     class: rectangle inherit from Base class"""
 
 
-from base import Base
+from models.base import Base
 class Rectangle(Base):
     """ attribute width height x and y id from Base class """
-    
+
     def __init__(self, width, height, x=0, y=0, id=None):
         self.__width = width
         self.__height = height
