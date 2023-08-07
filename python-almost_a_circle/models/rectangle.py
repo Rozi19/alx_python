@@ -12,27 +12,26 @@ class Rectangle(Base):
         self.__x = x
         self.__y = y
         super().__init__(id)
-    @property
-    def width(self):
+    def get_width(self):
         return self.__width
-    @width.setter
-    def width(self):
+    
+    def set_width(self):
         return self.__width
-    @property
-    def height(self):
+   
+    def get_height(self):
         return self.__height
-    @height.setter
-    def height(self):
+
+    def set_height(self):
         return self.__height
-    @property
-    def x(self):
+  
+    def get_x(self):
         return self.__x
-    @x.setter
-    def x(self):
+    
+    def set_x(self):
         return self.__x
-    @property
-    def y(self):
+    
+    def get_y(self):
         return self.__y
-    @y.setter
-    def y(self):
+   
+    def set_y(self):
         return self.__y
