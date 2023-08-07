@@ -40,6 +40,9 @@ If x or y is under 0, raise the ValueError exception with the message: <name of 
 <h2>3. Area first</h2>
 <br>
 Update the class Rectangle by adding the public method def area(self): that returns the area value of the Rectangle instance.<br>
+<h2>4. Display #0</h2>
+<br>
+Update the class Rectangle by adding the public method def display(self): that prints in stdout the Rectangle instance with the character # - you don’t need to handle x and y here.<br>
 
 
 
