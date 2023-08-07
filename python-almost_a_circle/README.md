@@ -47,6 +47,9 @@ Update the class Rectangle by adding the public method def display(self): that p
 <br>
 Update the class Rectangle by overriding the __str__ method so that it returns [Rectangle] (<id>) <x>/<y> - <width>/<height>
 <br>
+<h2>6. Display #1</h2>
+<br>
+Update the class Rectangle by improving the public method def display(self): to print in stdout the Rectangle instance with the character # by taking care of x and y <br>
 
 
 
