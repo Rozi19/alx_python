@@ -43,7 +43,10 @@ Update the class Rectangle by adding the public method def area(self): that retu
 <h2>4. Display #0</h2>
 <br>
 Update the class Rectangle by adding the public method def display(self): that prints in stdout the Rectangle instance with the character # - you don’t need to handle x and y here.<br>
-
+<h2>5. __str__</h2>
+<br>
+Update the class Rectangle by overriding the __str__ method so that it returns [Rectangle] (<id>) <x>/<y> - <width>/<height>
+<br>
 
 
 
