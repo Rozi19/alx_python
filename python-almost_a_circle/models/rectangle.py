@@ -80,3 +80,10 @@ class Rectangle(Base):
     def area(self):
         """ retrun the value of area """
         return self.__width * self.__height
+
+    def display(self):
+        """ display # column width row height """
+        for x in range(self.__height):
+            for y in range(self.__width):
+                print("#", end = "")
+            print()
