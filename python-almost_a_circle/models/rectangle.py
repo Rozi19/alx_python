@@ -92,8 +92,21 @@ class Rectangle(Base):
                 print("#", end = "")
             print()
 
-    def update(self, *args):
-        """ update the valuee of Rectangle by accept different value """
+    def update(self, *args, **kwargs):
+        """ update the value of Rectangle by accept different value
+            if its have only value use *args and if we have a key word and value use **kwargs """
+        if len(args) == 0:
+            for key, value in kwargs.items():
+                if key == "id":
+                    self.id = value
+                if key == "width":
+                    self.__width = value
+                if key == "height":
+                    self.__height = value
+                if key == "x":
+                    self.__x = value
+                if key == "y":
+                    self.__y = value
         if len(args) >= 1:
             self.id = args[0]
         if len(args) >= 2:
