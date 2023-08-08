@@ -71,7 +71,19 @@ As Python doesn’t have pointers, **kwargs is not literally a double pointer �
 **kwargs must be skipped if *args exists and is not empty <br>
 Each key in this dictionary represents an attribute to the instance <br>
 This type of argument is called a “key-worded argument”. Argument order is not important.<br>
-
+<h2>9. And now, the Square!</h2>
+<br>
+Write the class Square that inherits from Rectangle:
+<br>
+In the file models/square.py
+<br>Class Square inherits from Rectangle
+<br>Class constructor: def __init__(self, size, x=0, y=0, id=None)::
+<br>Call the super class with id, x, y, width and height - this super call will use the logic of the __init__ of the Rectangle class. The width and height must be assigned to the value of size
+<br>You must not create new attributes for this class, use all attributes of Rectangle - As reminder: a Square is a Rectangle with the same width and height
+<br>All width, height, x and y validation must inherit from Rectangle - same behavior in case of wrong data
+<br>The overloading __str__ method should return [Square] (<id>) <x>/<y> - <size> - in our case, width or height
+<br>As you know, a Square is a special Rectangle, so it makes sense this class Square inherits from Rectangle. Now you have a Square class who has the same attributes and same methods.
+<br>
 
 
 
