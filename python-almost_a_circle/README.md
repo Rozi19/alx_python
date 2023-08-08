@@ -61,6 +61,16 @@ Update the class Rectangle by adding the public method def update(self, *args): 
 <br>5th argument should be the y attribute
 <br>This type of argument is called a “no-keyword argument” - Argument order is super important.
 <br>
+<h2>8. Update #1</h2>
+<br>
+Update the class Rectangle by updating the public method def update(self, *args): by changing the prototype to update(self, *args, **kwargs) that assigns a key/value argument to attributes:
+<br>
+**kwargs can be thought of as a double pointer to a dictionary: key/value
+<br>
+As Python doesn’t have pointers, **kwargs is not literally a double pointer – describing it as such is just a way of explaining its behavior in terms you’re already familiar with<br>
+**kwargs must be skipped if *args exists and is not empty <br>
+Each key in this dictionary represents an attribute to the instance <br>
+This type of argument is called a “key-worded argument”. Argument order is not important.<br>
 
 
 
