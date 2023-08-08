@@ -50,7 +50,17 @@ Update the class Rectangle by overriding the __str__ method so that it returns [
 <h2>6. Display #1</h2>
 <br>
 Update the class Rectangle by improving the public method def display(self): to print in stdout the Rectangle instance with the character # by taking care of x and y <br>
-
+<h2>7. Update #0</h2>
+<br>
+Update the class Rectangle by adding the public method def update(self, *args): that assigns an argument to each attribute:
+<br>
+1st argument should be the id attribute
+<br>2nd argument should be the width attribute
+<br>3rd argument should be the height attribute
+<br>4th argument should be the x attribute
+<br>5th argument should be the y attribute
+<br>This type of argument is called a “no-keyword argument” - Argument order is super important.
+<br>
 
 
 
