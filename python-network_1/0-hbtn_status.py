@@ -12,3 +12,5 @@ r = requests.get('https://alu-intranet.hbtn.io/status')
 r1 = r.text
 r2 = type(r.text)
 print("Body response:\n\t- type: {}\n\t- content: {}".format(r2, r1))
+r3 =  r.headers['X-Request-Id']
+print(r3)
