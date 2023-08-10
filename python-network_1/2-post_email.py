@@ -7,10 +7,12 @@
 
 import requests
 import sys
+def main():
+    url1 = sys.argv[1]
+    email = sys.argv[2]
 
-url1 = sys.argv[1]
-email = sys.argv[2]
-
-r = requests.post(url = url1, data = {'Email': email})
-r1 = r.text
-print(r1)
+    r = requests.post(url = url1, data = {'Email': email})
+    r1 = r.text
+    print(r1)
+if __name__ == "__main__":
+     main()
