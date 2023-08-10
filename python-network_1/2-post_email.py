@@ -11,8 +11,7 @@ def main():
     url1 = sys.argv[1]
     email = sys.argv[2]
 
-    r = requests.post(url = url1, data = email)
-    r1 = r.text
-    print(r1)
+    r = requests.post(url1, data = {'email': email})
+    
 if __name__ == "__main__":
      main()
