@@ -1,3 +1,4 @@
+#!/usr/bin/python
 """ 
     import sys and requests
     sends a request to the URL and 
