@@ -8,9 +8,8 @@
 import sys
 import requests
 
-url = sys.argv[1]
 
-r = requests.get(url)
+r = requests.get('https://intranet.hbtn.io')
 r1 =  r.headers['X-Request-Id']
 
 print(r1)
