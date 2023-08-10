@@ -1,10 +1,3 @@
-""" 
-    import sys and requests
-    sends a request to the URL and 
-    displays the value of the variable X-Request-Id
-"""
-
-
 import sys
 import requests
 
