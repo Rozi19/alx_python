@@ -16,7 +16,7 @@ def main():
     r = requests.post(url, data=data)
 
     try:
-        r2 = response.json()
+        r2 = r.json()
     except ValueError:
         print("Not a valid JSON")
         return
