@@ -8,7 +8,7 @@ import sys
 import requests
 
 url = "http://0.0.0.0:5000/search_user"
-q = str.argv[1] if len(sys.argv) > 1 else ""
+q = sys.argv[1] if len(sys.argv) > 1 else ""
 
 r = requests.get(url, data = {'q': q})
 try:
