@@ -1,8 +1,6 @@
-"""
-    import sys and requests
+"""import sys and requests
     sends a request to the URL
-    displays the body of the response.
-"""
+    displays the body of the response. """
 
 import sys
 import requests
