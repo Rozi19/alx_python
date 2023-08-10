@@ -2,7 +2,7 @@
 """ parent class: BaseGeometry
     child class: Rectangle"""
 
-
+Rectangle = __import__('7-rectangle').Rectangle
 class BaseGeometry(type):
     """ every thing in python is an object soo the class is also an object.
     so if it is an object it have type.type is a metaclass, of which classes
