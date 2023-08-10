@@ -26,3 +26,13 @@ The email must be sent in the variable email
 <br>You are not allowed to import packages other than requests and sys
 <br>You don’t need to error check arguments passed to the script (number or type)
 <br>Please test your script in the container provided, using the web server running on port 5000
+<br>
+<h2>3. Error code #1</h2>
+<br>
+Write a Python script that takes in a URL, sends a request to the URL and displays the body of the response.
+<br>
+If the HTTP status code is greater than or equal to 400, print: Error code: followed by the value of the HTTP status code
+<br>You must use the packages requests and sys
+<br>You are not allowed to import packages other than requests and sys
+<br>You don’t need to check arguments passed to the script (number or type)
+<br>Please test your script in the container provided, using the web server running on port 5000<br>
