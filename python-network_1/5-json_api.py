@@ -5,22 +5,31 @@
 """
 
 
-import sys
 import requests
+import sys
 
 def main():
-    url = "http://0.0.0.0:5000/search_user"
-    q = sys.argv[1] if len(sys.argv) > 1 else ""
+    url = 'http://0.0.0.0:5000/search_user'
+    r1 = sys.argv[1] if len(sys.argv) > 1 else ""
 
-    r = requests.get(url, data = {'q': q})
-    r1 = r.json()
+    data = {'q': r1}
+    r = requests.post(url, data=data)
 
-    if r1 != '':
-        print("[{}] {}".format(data.get('id'), data.get('name')))
-    elif r1 == '':
-        print("No result")
+    try:
+        r2 = response.json()
+    except ValueError:
+        print("Not a valid JSON")
+        return
+
+    if isinstance(r2, dict):
+        if 'id' in r2 and 'name' in r2:
+            print("[{}] {}".format(r2['id'], r2['name']))
+        elif 'message' in r2:
+            print(r2['message'])
+        else:
+            print("No result")
     else:
         print("Not a valid JSON")
 
 if __name__ == "__main__":
-     main()
+    main()
