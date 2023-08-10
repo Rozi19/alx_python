@@ -12,7 +12,7 @@ q = sys.argv[1] if len(sys.argv) > 1 else ""
 
 r = requests.get(url, data = {'q': q})
 try:
-    r1 = response.json()
+    r1 = r.json()
 
     if r1:
         print("[{}] {}".format(data.get('id'), data.get('name')))
