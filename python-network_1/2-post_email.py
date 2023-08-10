@@ -8,9 +8,9 @@
 import requests
 import sys
 
-url = sys.argv[1]
+url1 = sys.argv[1]
 email = sys.argv[2]
 
-r = requests.post(url, data = {'Email': email})
+r = requests.post(url = url1, data = {'Email': email})
 r1 = r.text
 print(r1)
