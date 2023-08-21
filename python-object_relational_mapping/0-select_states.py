@@ -4,7 +4,7 @@
 import MySQLdb
 def main():
 #connecting with the data base
-    db = MySQLdb.connect(host="localhost", port=3306, user="root", passwd="root", db="hbtn_0e_0_usa")
+    db = MySQLdb.connect(host="localhost", port=3306, user="root", passwd="", db="hbtn_0e_0_usa")
 #execute statements to communicate with the database
     cur = db.cursor()
 #execute our query
