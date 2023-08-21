@@ -1,10 +1,15 @@
 # list all elemnt from states table in python 
-#import mysqldb 
+#import mysqldb abd sys
 
 import MySQLdb
+import sys
+
 def main():
 #connecting with the data base
-    db = MySQLdb.connect(host="localhost", port=3306)
+    mysqlUname = sys.argv[1]
+    mysqlpw = sys.argv[2]
+    dbname = sys.argv[3]
+    db = MySQLdb.connect(host="localhost", port=3306, user= mysqlUname, passwd= mysqlpw, db= dbname)
 #execute statements to communicate with the database
     cur = db.cursor()
 #execute our query
