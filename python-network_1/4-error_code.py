@@ -1,6 +1,6 @@
 """import sys and requests
     sends a request to the URL
-    displays if the staus code is above 400 or not. """
+    check if the staus code is above 400 or not. """
 
 
 import sys
