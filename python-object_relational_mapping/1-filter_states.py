@@ -24,6 +24,3 @@ for state in result:
     print(state)
 cur.close()
 db.close()
-
-
-
