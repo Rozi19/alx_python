@@ -25,3 +25,4 @@ for state in result:
 cur.close()
 db.close()
 
+
