@@ -20,3 +20,15 @@ Your script should take 3 arguments: mysql username, mysql password and database
 <br>Results must be sorted in ascending order by states.id
 <br>Results must be displayed as they are in the example below
 <br>Your code should not be executed when imported
+<br>
+<h2>2. Filter states by user input</h2>
+<br>
+Write a script that takes in an argument and displays all values in the states table of hbtn_0e_0_usa where name matches the argument.
+<br>
+Your script should take 4 arguments: mysql username, mysql password, database name and state name searched (no argument validation needed)<br>
+You must use the module MySQLdb (import MySQLdb)<br>
+Your script should connect to a MySQL server running on localhost at port 3306<br>
+You must use format to create the SQL query with the user input<br>
+Results must be sorted in ascending order by states.id<br>
+Results must be displayed as they are in the example below<br>
+Your code should not be executed when imported<br>
