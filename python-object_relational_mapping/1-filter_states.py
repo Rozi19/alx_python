@@ -18,8 +18,10 @@ pw = sys.argv[2]
 d = sys.argv[3]
 db = MySQLdb.connect(host="localhost", port=3306, user=U, passwd=pw, db=d)
 cur = db.cursor()
-cur.execute("SELECT * FROM states WHERE name LIKE 'N%'")
+cur.execute("SELECT * FROM states WHERE name LIKE 'N%' COLLATE utf8mb4_bin")
 result = cur.fetchall()
 for state in result:
     print(state)
-    
+cur.close()
+db.close()
+
