@@ -18,11 +18,10 @@ def main():
     u = sys.argv[1]
     pw = sys.argv[2]
     d = sys.argv[3]
-    state = sys.argv[4]
+    stat = sys.argv[4]
     db = MySQLdb.connect(host="localhost", port=3306, user=u, passwd=pw, db=d)
     cur = db.cursor()
-    qure = "SELECT * FROM states WHERE name=%s"
-    cur.execute(qure, (state,))
+    cur.execute("SELECT * FROM states WHERE name= '{}'".format(stat))
     result = cur.fetchall()
     for statess in result:
         print(statess)
