@@ -25,11 +25,14 @@ def main():
         ORDER BY cities.id ASC"
     curs.execute(qurer, (s,))
     result = curs.fetchall()
-    for city in result:
-        if city != result[-1]:
-            print("{}, ".format(city[0]), end="")
-        else:
-            print("{}".format(city[0]))
+    if result == "":
+        print()
+    else:
+        for city in result:
+            if city != result[-1]:
+                print("{}, ".format(city[0]), end="")
+            else:
+                print("{}".format(city[0]))
     curs.close()
     db.close()
 if __name__ == "__main__":
