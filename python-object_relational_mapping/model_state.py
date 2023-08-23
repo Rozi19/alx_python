@@ -17,10 +17,7 @@ db = create_engine("mysql+mysqldb://{}:{}@localhost/{}"
     .format(user, passwd, db1), echo = TRUE)
 Base = declarative_base()
 class State(Base):
-    """ 
-contains the table to be mapped to, and names 
-and datatypes of columns in it.
-"""
+    """ contains the table to be mapped to, and name"""
     __tablename__ = 'states'
     id = column(Integer, primary_key=True,
         autoincrement = True, unique = True, nullable = False)
