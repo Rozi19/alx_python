@@ -16,7 +16,7 @@ def main():
     u = sys.argv[1]
     pw = sys.argv[2]
     d = sys.argv[3]
-    db=MySQLdb.connect(host="localhost", port=3306, user=u, passwd=pw, db=d)
+    db = MySQLdb.connect(host="localhost", port=3306, user=u, passwd=pw, db=d)
     curs = db.cursor()
     qurer = "SELECT cities.id, cities.name, states.name FROM cities\
         INNER JOIN states ON state_id=states.id ORDER BY cities.id ASC"
