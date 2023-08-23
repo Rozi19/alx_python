@@ -1,17 +1,19 @@
 """
-class definition of a State and an instance Base = declarative_base()
+A python file that contains the class definition of a State
+and an instance Base = declarative_base():
 """
-from sqlalchemy import Column, Integer, string
+# import needed module
+from sqlalchemy import Column, Integer, String
 from sqlalchemy.ext.declarative import declarative_base
 
-
+# create a variable to hold declarative_base
 Base = declarative_base()
 
-class state(Base):
+
+class State(Base):
     """
-    contains the table to be mapped to, and names datatypes of columns in it
+    A State class to represent a states table in MySQL
     """
     __tablename__ = 'states'
-    id = Column(Integer, primary_key=True,
-        autoincrement=True, unique=True, nullable=False)
+    id = Column(Integer, primary_key=True, nullable=False)
     name = Column(String(128), nullable=False)
