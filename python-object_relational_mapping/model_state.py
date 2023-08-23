@@ -8,12 +8,11 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import column, Integer, String
 
 
-# return new base class
 Base = declarative_base()
 
 
 class State(Base):
-    """ contains the table to be mapped to, and name"""
+    #contains the table to be mapped to, and name
     __tablename__ = 'states'
     id = column(Integer, primary_key=True,
         autoincrement = True, unique = True, nullable = False)
