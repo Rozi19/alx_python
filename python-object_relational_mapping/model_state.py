@@ -18,7 +18,7 @@ db = create_engine("mysql+mysqldb://{}:{}@localhost/{}"
 """declarative_base() callable returns a new base class from 
 which all mapped classes should inherit."""
 Base = declarative_base()
-
+""" create class state """
 class State(Base):
     """ contains the table to be mapped to, and names 
 and datatypes of columns in it."""
