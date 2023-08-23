@@ -25,7 +25,7 @@ def main():
         ORDER BY cities.id ASC"
     curs.execute(qurer, (s,))
     result = curs.fetchall()
-    if result == "":
+    if len(result) == 0:
         print()
     else:
         for city in result:
