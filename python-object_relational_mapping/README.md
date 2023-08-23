@@ -48,3 +48,14 @@ Your script should connect to a MySQL server running on localhost at port 3306<b
 Results must be sorted in ascending order by states.id<br>
 Results must be displayed as they are in the example below<br>
 Your code should not be executed when imported<br>
+<h2>4. Cities by states</h2>
+<br>
+Write a script that lists all cities from the database hbtn_0e_4_usa
+<br>
+Your script should take 3 arguments: mysql username, mysql password and database name<br>
+You must use the module MySQLdb (import MySQLdb)<br>
+Your script should connect to a MySQL server running on localhost at port 3306<br>
+Results must be sorted in ascending order by cities.id<br>
+You can use only execute() once<br>
+Results must be displayed as they are in the example below<br>
+Your code should not be executed when imported<br>
