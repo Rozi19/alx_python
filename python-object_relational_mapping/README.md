@@ -70,3 +70,13 @@ Results must be sorted in ascending order by cities.id<br>
 You can use only execute() once<br>
 The results must be displayed as they are in the example below<br>
 Your code should not be executed when imported<br>
+Write a python file that contains the class definition of a State and an instance Base = declarative_base():
+<h2>6. First state model</h2>
+State class:<br>
+inherits from Base<br>
+links to the MySQL table states<br>
+class attribute id that represents a column of an auto-generated, unique integer, can’t be null and is a primary key<br>
+class attribute name that represents a column of a string with maximum 128 characters and can’t be null<br>
+You must use the module SQLAlchemy<br>
+Your script should connect to a MySQL server running on localhost at port 3306<br>
+WARNING: all classes who inherit from Base must be imported before calling Base.metadata.create_all(engine)<br>
