@@ -21,17 +21,12 @@ db = create_engine("mysql+mysqldb://{}:{}@localhost/{}"
 Base = declarative_base()
 """ create class state """
 class State(Base):
-    """ contains the table to be mapped to, and names 
-        and datatypes of columns in it."""
-
+    """ 
+        contains the table to be mapped to, and names 
+        and datatypes of columns in it.
+    """
     __tablename__ = 'states'
     id = column(Integer, primary_key=True,
         autoincrement = True, unique = True, nullable = False)
     name = column(String(128), nullable = False)
-
-"""
-metadata attribute of declarative base class
-MetaData.create_all() method is, 
-passing in our Engine as a source of database connectivity.
-"""
 Base.metadata.create_all(db)
