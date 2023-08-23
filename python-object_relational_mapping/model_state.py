@@ -8,6 +8,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import column, Integer, String
 
 
+# return new base class
 Base = declarative_base()
 
 
