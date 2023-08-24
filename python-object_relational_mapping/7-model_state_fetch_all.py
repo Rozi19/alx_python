@@ -14,7 +14,7 @@ if __name__ == "__main__":
     database = sys.argv[3]
 
     # Create the database engine
-    engine = create_engine("mysql+mysql://{}:{}@localhost:3306/{}"
+    engine = create_engine("mysql+mysqldb://{}:{}@localhost:3306/{}"
             .format(username, password, database))
 
     # Create a session factory
