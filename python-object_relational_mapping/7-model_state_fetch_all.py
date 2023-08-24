@@ -14,7 +14,7 @@ if __name__ == "__main__":
     database = sys.argv[3]
 
     # Create the database engine
-    engine = create_engine("mysql+pymysql://{}:{}@localhost:3306/{}"
+    engine = create_engine("mysql+mysql://{}:{}@localhost:3306/{}"
             .format(username, password, database))
 
     # Create a session factory
@@ -24,7 +24,7 @@ if __name__ == "__main__":
     session = Session()
 
     # Query all State objects and sort in ascending order by states.id
-    states = session.query(State).all()
+    states = session.query(State).order_by(State.id).all()
 
     # Display the results
     for state1 in states:
