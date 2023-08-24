@@ -9,13 +9,13 @@ from model_state import Base, State
 
 if __name__ == "__main__":
     # Get MySQL username, password, and database
-    username = sys.argv[1]
-    password = sys.argv[2]
+    uname = sys.argv[1]
+    passwd = sys.argv[2]
     database = sys.argv[3]
 
     # Create the database engine
-    engine = create_engine("mysql+mysqldb://{}:{}@localhost:3306/{}".format
-    (username, password, database))
+    engine = create_engine("mysql+mysqldb://{}:{}@localhost:3306/{}".format(
+        uname, passwd, database))
 
     # Create a session factory
     Session = sessionmaker(bind=engine)
