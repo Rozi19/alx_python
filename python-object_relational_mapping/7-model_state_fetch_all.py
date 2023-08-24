@@ -7,8 +7,8 @@ from sqlalchemy.orm import sessionmaker
 from model_state import Base, State
 
 
-def main():
-    # Get MySQL username, password, and database name from command-line arguments
+if __name__ == "__main__":
+    # Get MySQL username, password, and database
     username = sys.argv[1]
     password = sys.argv[2]
     database = sys.argv[3]
@@ -24,14 +24,8 @@ def main():
     session = Session()
 
     # Query all State objects and sort in ascending order by states.id
-    states = session.query(State).order_by(State.id).all()
+    states = session.query(State).all()
 
     # Display the results
-    for state in states:
-        print("{}: {}".format(state.id, state.name))
-
-    # Close the session
-    session.close()
-
-if __name__ == "__main__":
-    main()
+    for state1 in states:
+        print("{}: {}".format(state1.id, state1.name))
