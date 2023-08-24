@@ -80,3 +80,14 @@ class attribute name that represents a column of a string with maximum 128 chara
 You must use the module SQLAlchemy<br>
 Your script should connect to a MySQL server running on localhost at port 3306<br>
 WARNING: all classes who inherit from Base must be imported before calling Base.metadata.create_all(engine)<br>
+<h2>7. All states via SQLAlchemy</h2>
+<br>
+Write a script that lists all State objects from the database hbtn_0e_6_usa
+<br>
+Your script should take 3 arguments: mysql username, mysql password and database name<br>
+You must use the module SQLAlchemy<br>
+You must import State and Base from model_state - from model_state import Base, State<br>
+Your script should connect to a MySQL server running on localhost at port 3306<br>
+Results must be sorted in ascending order by states.id<br>
+The results must be displayed as they are in the example below<br>
+Your code should not be executed when imported<br>
