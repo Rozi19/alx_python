@@ -24,8 +24,10 @@ if __name__ == "__main__":
     session = Session()
 
     # Query all State objects and filter the state id is 1
-    states = session.query(State).filter(State.id == 1).one()
+    states = session.query(State).order_by(State.id).first()
 
     # Display the results
-    for state1 in states:
+    if state is None:
+        print("Nothing")
+    else:
         print("{}: {}".format(state1.id, state1.name))
