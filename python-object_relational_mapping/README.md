@@ -104,3 +104,14 @@ You are not allowed to fetch all states from the database before displaying the 
 The results must be displayed as they are in the example below<br>
 If the table states is empty, print Nothing followed by a new line<br>
 Your code should not be executed when imported<br>
+<h2>9. Contains `a`</h2>
+<br>
+Write a script that lists all State objects that contain the letter a from the database hbtn_0e_6_usa
+<br>
+Your script should take 3 arguments: mysql username, mysql password and database name<br>
+You must use the module SQLAlchemy<br>
+You must import State and Base from model_state - from model_state import Base, State<br>
+Your script should connect to a MySQL server running on localhost at port 3306<br>
+Results must be sorted in ascending order by states.id<br>
+The results must be displayed as they are in the example below<br>
+Your code should not be executed when imported<br>
