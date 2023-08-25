@@ -30,5 +30,3 @@ if __name__ == "__main__":
 
     # close the session
     session.close()
-
-
