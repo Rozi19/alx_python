@@ -26,3 +26,6 @@ if __name__ == "__main__":
     # Display the results
     for state1 in state:
         print("{}: {}".format(state1.id, state1.name))
+    
+    session.close()
+    
