@@ -21,7 +21,7 @@ if __name__ == "__main__":
     session = Session()
 
     # Query all State objects and filter the state name contins a
-    state = session.query(State).filter(States.name.like('%a%')).all()
+    state = session.query(State).filter(States.name.like('%a%')).order_by(State.id).all()
 
     # Display the results
     for state1 in state:
