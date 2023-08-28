@@ -25,8 +25,12 @@ def string(text):
 
 
 @app.route("/python/", strict_slashes=False)
+def string1():
+    return "is cool"
+
+
 @app.route("/python/(<text>)", strict_slashes=False)
-def string1(text="is cool"):
+def string1(text):
         txt = text.replace("_", " ")
         return "Python %s" % txt
 
