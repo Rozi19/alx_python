@@ -24,7 +24,7 @@ def string(text):
     return "C %s" % txt
 
 
-@app.route("/python/(<text>)", strict_slashes=False)
+@app.route("/python/<text>", strict_slashes=False)
 def string1(text):
         txt = text.replace("_", " ")
         return "Python %s" % txt
