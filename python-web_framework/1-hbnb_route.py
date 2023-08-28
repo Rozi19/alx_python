@@ -1,5 +1,6 @@
 """
-a new script that starts a Flask web application:
+a new script that starts a Flask web application
+/hbnb: display “HBNB”
 """
 
 from flask import Flask
