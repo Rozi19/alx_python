@@ -26,11 +26,13 @@ def string(text):
 
 @app.route("/python/(<text>)", strict_slashes=False)
 def string1(text):
-    if text == "":
-        return "Python is cool"
-    else:
         txt = text.replace("_", " ")
         return "Python %s" % txt
+
+
+@app.route("/python", strict_slashes=False)
+def string1(text):
+    return "Python is cool"
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=5000)
