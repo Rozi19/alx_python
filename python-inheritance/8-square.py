@@ -1,4 +1,3 @@
-
 """ parent class: BaseGeometry
     child class: Rectangle"""
 
