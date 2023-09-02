@@ -1,6 +1,7 @@
 """ class: BaseGeometry
     class: rectangle"""
 
+BaseGeometry = __import__('5-base_geometry').BaseGeometry
 
 class BaseGeometry(type):
     """ every thing in python is an object soo the class is also an object.
@@ -46,6 +47,7 @@ class BaseGeometry(metaclass=BaseGeometry):
                 raise ValueError("{} must be greater than 0".format(self.__name))
         else:
             raise TypeError("{} must be an integer".format(self.__name))
+
 
 
 class Rectangle(BaseGeometry):
