@@ -1,3 +1,5 @@
+#!/usr/bin/python3
 def convert_to_celsius(fahrenheit):
-    Celsius = float((fahrenheit - 32) * (5/9))
-    return Celsius
+    fahrenheit: any
+    celsius = (5 / 9 * (fahrenheit - 32))
+    return celsius
