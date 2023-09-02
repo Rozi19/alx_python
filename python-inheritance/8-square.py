@@ -1,5 +1,7 @@
-""" parent class: BaseGeometry
-    child class: Rectangle"""
+"""
+parent class: BaseGeometry
+child class: Rectangle
+"""
 
 Rectangle = __import__('7-rectangle').Rectangle
 
