@@ -35,3 +35,12 @@ Requirements:
 Records all tasks that are owned by this employee<br>
 Format must be: "USER_ID","USERNAME","TASK_COMPLETED_STATUS","TASK_TITLE"<br>
 File name must be: USER_ID.csv<br>
+<h1>2. Export to JSON</h1>
+<br>
+Using what you did in the task #0, extend your Python script to export data in the JSON format.
+<br>
+Requirements:
+<br>
+Records all tasks that are owned by this employee<br>
+Format must be: { "USER_ID": [{"task": "TASK_TITLE", "completed": TASK_COMPLETED_STATUS, "username": "USERNAME"}, {"task": "TASK_TITLE", "completed": TASK_COMPLETED_STATUS, "username": "USERNAME"}, ... ]}<br>
+File name must be: USER_ID.json<br>
