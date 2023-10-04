@@ -1,6 +1,8 @@
-
-#extend Python script to export data in the JSON format.
-
+"""
+extend Python script to export data in the JSON format.
+Format must be: { "USER_ID": [{"task": "TASK_TITLE", "completed": TASK_COMPLETED_STATUS, "username": "USERNAME"}, 
+{"task": "TASK_TITLE", "completed": TASK_COMPLETED_STATUS, "username": "USERNAME"}, ... ]}
+"""
 import json
 import requests
 import sys
