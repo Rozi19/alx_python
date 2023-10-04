@@ -25,3 +25,13 @@ TOTAL_NUMBER_OF_TASKS: total number of tasks, which is the sum of completed and 
 <br>
 Second and N next lines display the title of completed tasks: TASK_TITLE (with 1 tabulation and 1 space before the TASK_TITLE)
 <br>
+
+<h1>1. Export to CSV</h1>
+<br>
+Using what you did in the task #0, extend your Python script to export data in the CSV format.
+<br>
+Requirements:
+<br>
+Records all tasks that are owned by this employee<br>
+Format must be: "USER_ID","USERNAME","TASK_COMPLETED_STATUS","TASK_TITLE"<br>
+File name must be: USER_ID.csv<br>
