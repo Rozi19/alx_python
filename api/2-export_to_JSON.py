@@ -1,5 +1,5 @@
 
-#Gather Data From an API
+#extend Python script to export data in the JSON format.
 
 import json
 import requests
@@ -14,7 +14,6 @@ if __name__ == "__main__":
     data1 = api_request1.text
     pjson1 = json.loads(data1)
 
-    #print(pjson1)
     name_info = pjson['name']
 
     filename = "{}.json".format(employee_id)
@@ -27,6 +26,8 @@ if __name__ == "__main__":
             "username": name_info
         } for item in pjson1]
     }
+
+    # export data to json file
 
     with open(filename, "w") as outfile:
         json.dump(result, outfile)
