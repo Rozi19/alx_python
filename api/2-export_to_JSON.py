@@ -3,6 +3,7 @@ extend Python script to export data in the JSON format.
 Format must be: { "USER_ID": [{"task": "TASK_TITLE", "completed": TASK_COMPLETED_STATUS, "username": "USERNAME"}, 
 {"task": "TASK_TITLE", "completed": TASK_COMPLETED_STATUS, "username": "USERNAME"}, ... ]}
 """
+
 import json
 import requests
 import sys
@@ -16,7 +17,7 @@ if __name__ == "__main__":
     data1 = api_request1.text
     pjson1 = json.loads(data1)
 
-    name_info = pjson['name']
+    name_info = pjson['username']
 
     filename = "{}.json".format(employee_id)
 
