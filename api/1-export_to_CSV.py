@@ -27,3 +27,4 @@ if __name__ == "__main__":
             task_completed_status = item['completed']
             task_title = item['title']
             writer.writerow([user_id, username, task_completed_status, task_title])
+    print("data export to {}".format(filename))
